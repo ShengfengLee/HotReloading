@@ -20,7 +20,7 @@ var hostname = Host.current().name ?? "localhost"
 
 let package = Package(
     name: "HotReloading",
-    platforms: [.macOS("10.12"), .iOS("10.0"), .tvOS("10.0")],
+    platforms: [.macOS("10.12"), .iOS("9.0"), .tvOS("10.0")],
     products: [
         .library(name: "HotReloading", targets: ["HotReloading"]),
         .library(name: "HotReloadingGuts", targets: ["HotReloadingGuts"]),
